@@ -1,8 +1,6 @@
 {
   "title": "Kubernetes Interactive Lab",
   "description": "Explore a real Kubernetes cluster with live workloads. Try kubectl commands against actual pods, deployments and services.",
-  "difficulty": "Intermediate",
-  "time": "20",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -17,9 +15,6 @@
     "finish": {
       "text": "finish.md"
     }
-  },
-  "environment": {
-    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes"
